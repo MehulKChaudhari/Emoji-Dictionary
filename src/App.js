@@ -7,7 +7,7 @@ var emojiInDatabase = Object.keys(emojiDictionary);
 
 export default function App() {
   const [meaning, setMeaning] = useState("");
-  var [emoji, setemoji] = useState("");
+
 
   function inputChangeHandler(event) {
     var userInput = event.target.value;
@@ -24,7 +24,7 @@ export default function App() {
   function emojiClickHandler(emoji) {
     var meaning = emojiDictionary[emoji];
     setMeaning(meaning);
-    setemoji(emoji);
+    
   }
 
   return (
@@ -41,7 +41,7 @@ export default function App() {
       </h4>
       <h2 className="Final-opt">
        
-        {emoji} {meaning}
+         {meaning}
       </h2>
 
       <h3>Emojis we know </h3>
