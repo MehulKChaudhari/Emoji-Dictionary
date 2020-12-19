@@ -37,7 +37,7 @@ export default function App() {
       />
       <h4 className="emoji-opt">
         
-        meaning of emoji here <span>👇</span>
+        meaning of emoji here !
       </h4>
       <h2 className="Final-opt">
        
