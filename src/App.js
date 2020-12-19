@@ -36,12 +36,12 @@ export default function App() {
         placeholder="Enter emoji you want to know meaning or copy paste it "
       />
       <h4 className="emoji-opt">
-        {" "}
-        meaning of emoji here <span>👇</span>{" "}
+        
+        meaning of emoji here <span>👇</span>
       </h4>
       <h2 className="Final-opt">
-        {" "}
-        {emoji} {meaning}{" "}
+       
+        {emoji} {meaning}
       </h2>
 
       <h3>Emojis we know </h3>
